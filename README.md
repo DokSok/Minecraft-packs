@@ -37,3 +37,7 @@ nix run nixpkgs#packwiz -- serve                # try it locally
 | Folder | Event | Minecraft | Fabric |
 |---|---|---|---|
 | `cube-drop-test/` | Cube Drop Test server | 26.2 | 0.19.3 |
+
+`cube-drop-test` client mods: Mod Menu and its dependencies, Fabric API and Text Placeholder API. Fabric
+API is `client` here because the server keeps its own copy, installed by hand with FabricExporter; marking
+it `both` would put a second Fabric API jar on the server.

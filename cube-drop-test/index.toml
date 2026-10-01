@@ -4,3 +4,18 @@ hash-format = "sha256"
 file = "mods/automodpack.pw.toml"
 hash = "a6789e2903a6d3e9f8315da7c8580f6e5016d17cddf53370b0c1b9e6da8169e4"
 metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "bf4c261510bb37e6bb0399015bec8578d9ab158cd12c12e1957b749b0e97171a"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "dc9906e45919f5b3a31e3d5582cd97bdd7534f56c2a5e730b9de41875a97e1eb"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "3da153824eb7ce10e2fdefb20818c1bfbde12cb3cd5cf32c4fa65ea8f4373568"
+metafile = true

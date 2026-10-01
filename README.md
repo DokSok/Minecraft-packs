@@ -18,8 +18,9 @@ How a pack reaches people:
   `server`; the players' set is `client`.
 - **Settings are first-launch defaults.** Files under `config/` and `options.txt` are delivered once and
   players may change them (AutoModpack 4.x `allowEditsInFiles`, the default). To enforce one for an event,
-  remove its path from `allowEditsInFiles` in that server's AutoModpack config. In 4.x, settings files reach
-  players only if they're also listed in `syncedFiles`.
+  remove its path from `allowEditsInFiles` in that server's AutoModpack config. Settings files reach players
+  like client mods: the egg puts the pack's client side in AutoModpack's host folder, which it serves in
+  full (`syncedFiles` stays empty; it only covers files from the server's own folder).
 - **Pin AutoModpack** to a stable release (`packwiz pin automodpack`); `packwiz update --all` would otherwise
   pick release candidates.
 - Every change goes through a PR.

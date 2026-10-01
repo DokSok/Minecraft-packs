@@ -19,3 +19,8 @@ metafile = true
 file = "mods/placeholder-api.pw.toml"
 hash = "3da153824eb7ce10e2fdefb20818c1bfbde12cb3cd5cf32c4fa65ea8f4373568"
 metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "0ef54a1e91fd2dac1c92679134b87f8cf1b79fe6e6d51523edb7fc4893327eb5"
+metafile = true

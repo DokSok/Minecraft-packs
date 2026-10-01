@@ -43,3 +43,8 @@ nix run nixpkgs#packwiz -- serve                # try it locally
 Voice Chat (pinned; keep it at the server's version, voice port 24454). Fabric API and Simple Voice Chat are
 `client` here because the server keeps its own hand-installed copies; marking them `both` would put a second
 jar on the server.
+
+## Licence
+
+The pack files in this repo (the `.toml` metadata, settings files and this README) are MIT-licensed; see
+[LICENSE](LICENSE). The mods they point to are not in this repo and keep their own licences.

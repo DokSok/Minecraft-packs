@@ -1,0 +1,6 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/automodpack.pw.toml"
+hash = "a6789e2903a6d3e9f8315da7c8580f6e5016d17cddf53370b0c1b9e6da8169e4"
+metafile = true

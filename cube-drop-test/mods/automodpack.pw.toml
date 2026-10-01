@@ -1,0 +1,14 @@
+name = "AutoModpack"
+filename = "automodpack-mc26.2-fabric-4.0.6.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/k68glP2e/versions/FSEUH1fZ/automodpack-mc26.2-fabric-4.0.6.jar"
+hash-format = "sha512"
+hash = "c8a2b1b0c9881bbe8ffb47463557ecf04bff1882e186420bd6793cff0e3707e3ac8214a289c7e645dc400ffced3987225077501b9738a562a16ce13e125a5856"
+
+[update]
+[update.modrinth]
+mod-id = "k68glP2e"
+version = "FSEUH1fZ"
